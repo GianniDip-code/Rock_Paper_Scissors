@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -16,7 +17,7 @@
         <h3 class="t-shadow">Who reaches <span>5</span> wins <span>🏆 </span></h3>
     </header>
     <main>
-        <h2 class="t-shadow">SCORE</h2>
+        <h2 id="final-score" class="t-shadow">SCORE</h2>
         <div class="score t-shadow">
             <div class="you">
                 <h2>YOU</h2>
@@ -27,18 +28,18 @@
                 <h3 class="comp-score">0</h3>
             </div>
         </div>
-        <h2 class="t-shadow round">Play the Game!! &#127808;</h2> 
+        <h2 id="play" class="t-shadow round">Play the Game!! &#127808;</h2> 
         <div class="choices">
-            <div>&#9994;</div>
-            <div>&#9995;</div>
-            <div>&#9996;</div>
+            <div id="rock">&#9994;</div>
+            <div id="paper">&#9995;</div>
+            <div id=scissors>&#9996;</div>
         </div>          
     </main>
 
     
     <!-- Link to JS file -->
 
-    <!-- <script src="game.js"></script> -->
+    <script src="game.js"></script>
 </body>
 
 </html>
